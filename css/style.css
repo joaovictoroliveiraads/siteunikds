@@ -184,3 +184,30 @@ footer {
 }
 
 /* Adapte conforme necessário */
+
+@media only screen and (max-width: 600px) {
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav a {
+        margin-bottom: 10px;
+    }
+
+    #home img {
+        width: 100%;
+    }
+
+    #sobre, #valores, #programas, #noticias, #galeria, #calendario, #contato, #noticia-detalhes {
+        padding: 15px;
+    }
+
+    #devs-list {
+        width: 100%;
+    }
+
+    #devs-button {
+        width: 100%;
+    }
+}
